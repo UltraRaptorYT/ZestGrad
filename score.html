@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="h-[100dvh] flex flex-col p-4">
+      <h1 class="text-4xl text-center font-semibold">ZestGrad Leadboard</h1>
+      <div class="flex justify-center h-full items-center">
+        <canvas
+          id="myChart"
+          style="position: relative; height: 90dvh; width: 100dvw"
+        ></canvas>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="./supabase.js"></script>
+    <script src="./score.js"></script>
+  </body>
+</html>
